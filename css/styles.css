@@ -5,7 +5,9 @@ Updated:    Date Initials
 TOC:        Resets; HTML & Body; Links; Typography; Lists; Tables;
         Classes; Template; Navigation; Page Styles; Forms; Other;
 ----------------------------------------------------------------- */
-
+.body{
+margin: 0;	
+}
 @font-face {
     font-family: HelveticaRoman;
     src: url(../fonts/helvroman.ttf);
