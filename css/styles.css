@@ -5,7 +5,7 @@ Updated:    Date Initials
 TOC:        Resets; HTML & Body; Links; Typography; Lists; Tables;
         Classes; Template; Navigation; Page Styles; Forms; Other;
 ----------------------------------------------------------------- */
-.body{
+body{
 margin: 0;	
 }
 @font-face {
