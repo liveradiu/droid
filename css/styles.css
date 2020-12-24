@@ -1,0 +1,55 @@
+/* ======== DomainName.com Screen Stylesheet ::
+Author:    Name, Website
+Created:    Date Intitals
+Updated:    Date Initials
+TOC:        Resets; HTML & Body; Links; Typography; Lists; Tables;
+        Classes; Template; Navigation; Page Styles; Forms; Other;
+----------------------------------------------------------------- */
+
+@font-face {
+    font-family: HelveticaRoman;
+    src: url(../fonts/helvroman.ttf);
+}
+
+@font-face {
+    font-family: HelveticaBold;
+    src: url(../fonts/helvbold.ttf);
+}
+
+li{
+    float:right;
+    list-style:none;
+	width: 100%;
+	font-family: 'HelveticaRoman';
+}
+li a {
+    display: block;
+	text-decoration:none;
+	border: 1px solid #ddd;
+    background: #FFFDE7;
+}
+dl {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+dt {
+    float: right;
+    width: 95px;
+    height: 75px;
+    text-align: center;
+}
+img {
+    width: 75px;
+	border-radius: 10px;
+}
+dd {
+    text-align: right;
+    color: #666;
+    line-height: 1.7;
+    font-size: 16px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: rtl;
+}
